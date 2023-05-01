@@ -88,10 +88,10 @@ h1.main, p.demos {
 }
 
 .sp-container h2.frame-1 span {
-	-webkit-animation: blurFadeInOut 4s ease-out 4s backwards;
-	-moz-animation: blurFadeInOut 4s ease-out 4s backwards;
-	-ms-animation: blurFadeInOut 4s ease-out 4s backwards;
-	animation: blurFadeInOut 4s ease-out 4s backwards;
+	-webkit-animation: FadeOut 4s ease-out 4s backwards;
+	-moz-animation: FadeOut 4s ease-out 4s backwards;
+	-ms-animation: FadeOut 4s ease-out 4s backwards;
+	animation: FadeOut 4s ease-out 4s backwards;
 }
     .sp-container h2.frame-2 {
     font-size: 100px;
