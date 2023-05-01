@@ -44,7 +44,7 @@ h1.main, p.demos {
 	line-height: 100px;
 	height: 90px;
 	margin-top: -50px;
-	font-size: 90px;
+	font-size: 80px;
 	width: 100%;
 	text-align: center;
 	color: transparent;
@@ -87,13 +87,17 @@ h1.main, p.demos {
 
 .sp-container h2.frame-1 span:nth-child(4) {
     position: absolute;
-	font-size: 130px;
-	top: 200%;
-	left: 36%;
-    -webkit-animation-delay: 4s;
-	 -moz-animation-delay: 4s;
-	 -ms-animation-delay: 4s;
-	 animation-delay: 4s;
+	top: 220%;
+	left: 0%;
+	line-height: 100px;
+	margin-top: -50px;
+	font-size: 120px;
+	width: 100%;
+	text-align: center;
+    -webkit-animation-delay: 5s;
+	 -moz-animation-delay: 5s;
+	 -ms-animation-delay: 5s;
+	 animation-delay: 5s;
 }
 .sp-globe {
 	position: absolute;
