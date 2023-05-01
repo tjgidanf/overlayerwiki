@@ -86,12 +86,20 @@ h1.main, p.demos {
 	 -ms-animation-delay: 3s;
 	 animation-delay: 3s;
 }
+
+.sp-container h2.frame-1 span {
+	-webkit-animation: blurFadeInOut 4s ease-out 4s backwards;
+	-moz-animation: blurFadeInOut 4s ease-out 4s backwards;
+	-ms-animation: blurFadeInOut 4s ease-out 4s backwards;
+	animation: blurFadeInOut 4s ease-out 4s backwards;
+}
     .sp-container h2.frame-2 {
-        font-size: 100px;
-        -webkit-animation: blurFadeIn 4s
-        -moz-animation: blurFadeIn 4s
-        -ms-animation: blurFadeInOut 5s;
-        animation-delay: 5s;
+    font-size: 100px;
+    -webkit-animation-delay: 4s;
+	-moz-animation-delay: 4s;
+	-ms-animation-delay: 4s;
+	animation-delay: 4s;
+	
 }
 .sp-globe {
 	position: absolute;
@@ -177,6 +185,18 @@ h1.main, p.demos {
 	100% {
 		opacity: 1;
 		-webkit-transform: scale(1) rotate(0deg);
+	}
+	
+}
+
+@-webkit-keyframes fadeOut {
+	100% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+	}
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0);
 	}
 }
 /**/
