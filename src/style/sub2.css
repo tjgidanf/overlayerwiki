@@ -10,7 +10,7 @@
 
 #Emoticon {
   position: absolute;
-  top: calc(18.5vh - 1vw - 3vh); 
+  top: calc(18.5vh - 1.1vw - 3vh); 
   left: calc(50vw - 12vw / 2 + 3vw);
   z-index: 9; 
   width: 12vw;
