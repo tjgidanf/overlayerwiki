@@ -16,6 +16,8 @@ a {
   position: fixed;
   width: 100%;
   z-index: 30;
+  overflow-y: hidden;
+  height: 56px;
 }
 
 .header ul {
